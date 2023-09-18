@@ -6,7 +6,7 @@ import { fetchRepos } from './utils/repos'
 import { addPackageRedirectRouteRule, createPackage, getContentPackages, getPackagesWithoutRepo, getReposWithoutPackage, removePackage, removePackageRedirectRouteRule } from './utils/packages'
 import type { GitHubRepo } from './types'
 
-const owner = 'unjs'
+const owner = 'barbapapazes'
 const repo = 'website'
 
 /**

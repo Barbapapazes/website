@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   update-packages:
-    if: github.repository_owner == 'unjs'
+    if: github.repository_owner == 'barbapapazes'
     name: Update Packages
     runs-on: ubuntu-latest
 
