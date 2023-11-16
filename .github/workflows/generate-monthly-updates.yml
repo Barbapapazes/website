@@ -36,7 +36,7 @@ jobs:
           git checkout -b monthly-updates
           git add .
           git commit -m "content: create monthly updates"
-          git push -f origin main
+          git push -f origin monthly-updates
         env:
           EMAIL: ${{ secrets.EMAIL }}
           USERNAME: ${{ secrets.USERNAME }}
